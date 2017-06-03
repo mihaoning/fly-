@@ -1,0 +1,9 @@
+<litepal>
+    <dbname value="fly_weather" />
+    <version value=" 1 " />
+    <list>
+        <mapping class="com.fly.android.db.Province" />
+        <mapping class="com.fly.android.db.City" />
+        <mapping class="com.fly.android.db.County" />
+    </list>
+</litepal>

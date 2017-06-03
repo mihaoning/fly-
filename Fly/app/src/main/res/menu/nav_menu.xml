@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/ic_flare_white_48dp"
+            android:title="Weather"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"/>
+
+
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_white_48dp"
+            android:title="Map"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"/>
+        <item
+            android:id="@+id/nav_like"
+            android:icon="@drawable/ic_favorite_border_white_48dp"
+            android:title="Like"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"/>
+    </group>
+
+
+</menu>
